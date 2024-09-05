@@ -11,7 +11,7 @@ public partial class NotionConnectorPlugin : EditorPlugin
 	private NotionConnectorDock _dock;
 	private NotionClient _client;
 	private string _token = "";
-	private string _talentsDbId = "a06f31b6b7a64f56b387d19fc85e727f";
+	private string _talentsDbId = "";
 	public override void _EnterTree()
 	{
 		_dock = GD.Load<PackedScene>("res://addons/notionconnector/notion_connector_dock.tscn").Instantiate() as NotionConnectorDock;
