@@ -10,7 +10,7 @@ public partial class NotionConnectorPlugin : EditorPlugin
 {
 	private NotionConnectorDock _dock;
 	private NotionClient _client;
-	private string _token = "secret_X8T9aR68SjWRhl0sSid1oWnxdAKtLCf4VcrDJa7lNKW";
+	private string _token = "";
 	private string _talentsDbId = "a06f31b6b7a64f56b387d19fc85e727f";
 	public override void _EnterTree()
 	{
